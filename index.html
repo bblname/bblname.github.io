@@ -99,10 +99,9 @@
 
   let namegenerate = document.querySelector('#name');
   function generateBBL() {
-    var nums = [0, 0];
-    nums[0] = Math.floor((Math.random() * 81));
-    nums[1] = Math.floor((Math.random() * 81));
-    namegenerate.innerText = bblName[nums[0]] + " " + bblName[nums[1]] + " Lospalluto";
+    var nums = 0;
+    nums = Math.floor((Math.random() * 81));
+    namegenerate.innerText = "Luca " + bblName[nums] + " Lospalluto";
   }
   </script>
 
